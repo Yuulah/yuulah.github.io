@@ -5,14 +5,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Art Gallery</title>
   </head>
-  <body style="text-align: center; background-color: black;">
+  <body style="text-align: center">
     <canvas id="unity-canvas" width=1500 height=844 style="width: 1500px; height: 844px; background: #231F20"></canvas>
-    <script src="Build/tet.loader.js"></script>
+    <script src="Build/artgallery.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/tet.data",
-        frameworkUrl: "Build/tet.framework.js",
-        codeUrl: "Build/tet.wasm",
+        dataUrl: "Build/artgallery.data",
+        frameworkUrl: "Build/artgallery.framework.js",
+        codeUrl: "Build/artgallery.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Art Gallery",
